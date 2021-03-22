@@ -1,24 +1,14 @@
-<div class="p-5 h-screen flex justify-center items-center">
+<script>
 
-    <section class="text-2xl text-gray-600">
-        <span class="p-2 bg-red-600 text-white rounded-lg shadow-sm">
-            Svelte
-        </span>
-        {' '}+
-        <span class="p-2 bg-green-600 text-white rounded-lg shadow-sm">
-            Tailwind CSS
-        </span>
-    </section>
+</script>
 
-    <footer class="flex absolute bottom-0 mb-5 text-gray-700">
-        <p>Powered by</p>
-        <a
-            class="ml-1 text-gray-800 underline"
-            href="https://github.com/davi-mbatista/start"
-            alt="GitHub's start template project"
-            target="_blank"
-            rel="noopener noreferrer">
-            /start
-        </a>
-    </footer>
+<div class="container mx-auto">
+    <div class="flex">
+        <div class="flex-1 bg-white h-screen">
+            <div class="block bg-white h-2/4">1</div>
+            <div class="block bg-red-400 h-2/4">2</div>
+        </div>
+        <div class="flex-1 bg-blue-400 h-screen">3</div>
+        <div class="flex-1 bg-indigo-600 h-screen">4</div>
+    </div>
 </div>
